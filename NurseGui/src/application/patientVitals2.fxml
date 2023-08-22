@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pVitals" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.vitalsCont">
+   <children>
+      <Text layoutX="163.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Vitals">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <VBox alignment="CENTER" layoutX="25.0" layoutY="76.0" prefHeight="293.0" prefWidth="244.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Weight">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="weight" onAction="#toAllergies" />
+            <Separator prefHeight="28.0" prefWidth="244.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Height" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="height" onAction="#toAllergies" />
+            <Separator prefHeight="28.0" prefWidth="244.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Body Temp." textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="bt" onAction="#toAllergies" />
+            <Separator prefHeight="28.0" prefWidth="244.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Pressure" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="bp" onAction="#toAllergies" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <Text layoutX="394.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="comments" layoutX="338.0" layoutY="123.0" onDragDetected="#toAllergies" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="toAllergies" layoutX="386.0" layoutY="330.0" mnemonicParsing="false" onAction="#toAllergies" prefHeight="39.0" prefWidth="102.0" text="Next">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

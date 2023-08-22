@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="135.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Records" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="173.0" layoutY="104.0" prefHeight="62.0" prefWidth="253.0" />
+      <TextArea layoutX="174.0" layoutY="188.0" prefHeight="62.0" prefWidth="253.0" />
+      <TextArea layoutX="174.0" layoutY="267.0" prefHeight="62.0" prefWidth="253.0" />
+      <Button layoutX="265.0" layoutY="335.0" mnemonicParsing="false" text="Exit">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

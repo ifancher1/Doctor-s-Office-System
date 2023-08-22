@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.nurseController">
+   <children>
+      <Text layoutX="159.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient vitals" textAlignment="CENTER" wrappingWidth="281.13671875">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight:" wrappingWidth="106.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height:" wrappingWidth="106.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temp:" wrappingWidth="106.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Pressure:" wrappingWidth="106.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="120.0" layoutY="102.0" prefHeight="25.0" prefWidth="198.0" />
+      <TextField layoutX="120.0" layoutY="132.0" prefHeight="25.0" prefWidth="198.0" />
+      <TextField layoutX="120.0" layoutY="166.0" prefHeight="25.0" prefWidth="198.0" />
+      <TextField layoutX="120.0" layoutY="251.0" prefHeight="25.0" prefWidth="198.0" />
+      <Text layoutX="14.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments:" wrappingWidth="121.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="160.0" layoutY="325.0" prefHeight="100.0" prefWidth="281.0" />
+      <Button layoutX="247.0" layoutY="441.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="106.0" text="Next">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="allergyInfo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.aInfoCont">
+   <children>
+      <Text layoutX="175.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allergy Info" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="info" layoutX="142.0" layoutY="100.0" onDragDetected="#toHome" prefHeight="121.0" prefWidth="319.0" />
+      <Button layoutX="176.0" layoutY="246.0" mnemonicParsing="false" onAction="#ViewRecords" text="See Medical Records">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="259.0" layoutY="312.0" mnemonicParsing="false" onAction="#toHome" text="Finish">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

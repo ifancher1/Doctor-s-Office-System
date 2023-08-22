@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.nurseController">
+   <children>
+      <Text layoutX="199.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient" textAlignment="CENTER" wrappingWidth="201.931640625">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First:" wrappingWidth="55.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last:" wrappingWidth="55.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:" wrappingWidth="103.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="221.0" layoutY="336.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="158.0" text="Next" fx:id="next" onAction="#nextInfo">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="88.0" layoutY="83.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField layoutX="88.0" layoutY="136.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField layoutX="136.0" layoutY="188.0" prefHeight="25.0" prefWidth="233.0" />
+   </children>
+</Pane>

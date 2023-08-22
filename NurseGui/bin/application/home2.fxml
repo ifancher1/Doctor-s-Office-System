@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.homeCont">
+   <children>
+      <AnchorPane fx:id="home" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Text layoutX="236.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" textAlignment="CENTER">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="enterInfo" layoutX="139.0" layoutY="162.0" mnemonicParsing="false" onAction="#patientInfo" text="Enter Patient Info" textAlignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Button layoutX="198.0" layoutY="280.0" mnemonicParsing="false" text="Messages" textAlignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
